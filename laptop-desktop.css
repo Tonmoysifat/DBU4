@@ -1,0 +1,845 @@
+@media screen and (max-width:1280px) and (min-width:1130px) {
+    .navbar .search {
+        left: -131px;
+    }
+
+    .navbar .logo {
+        left: -137px;
+    }
+
+    .images {
+        left: -231px;
+    }
+
+    .box {
+        margin: 0px 7px;
+        width: 350px;
+    }
+
+    #box1::before {
+        width: 350px;
+    }
+
+    #box2::before {
+        width: 350px;
+    }
+
+    #box3::before {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:1129px) and (min-width:942px) {
+
+    .navbar .search {
+        left: -75px;
+    }
+
+    .navbar .logo {
+        left: -80px;
+    }
+
+    .images {
+        left: -231px;
+        top: 269px;
+
+    }
+
+    .mess p {
+        font-size: 14px;
+        width: 248px
+    }
+
+    .box {
+        margin: 0px 7px;
+        width: 300px;
+    }
+
+    #box1::before {
+        width: 298px;
+    }
+
+    #box2::before {
+        width: 298px;
+    }
+
+    #box3::before {
+        width: 298px;
+    }
+
+    .image-text {
+        height: 750px;
+    }
+
+    .entry {
+        right: -20px
+    }
+
+    form input {
+        width: 330px;
+    }
+
+    textarea {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width:941px) and (min-width:800px) {
+    #home .home-content {
+        left: 124px;
+    }
+
+    .primary-text {
+        font-size: 40px;
+    }
+
+    .secondary-text {
+        font-size: 32px;
+    }
+
+    .search2 input {
+        width: 460px;
+    }
+
+    .navbar .search {
+        left: -45px;
+    }
+
+    .navbar2 ul li a {
+        margin: 0px 19px;
+        font-size: 21px;
+    }
+
+    .logo img {
+        width: 66px;
+    }
+
+    .logo .navtext {
+        font-size: 20px;
+    }
+
+    .search input {
+        width: 170px;
+        height: 34px;
+    }
+
+    .navbar .logo {
+        left: -61px;
+    }
+
+    .images {
+        left: -231px;
+        top: 269px;
+
+    }
+
+    .con-form {
+        left: -175px
+    }
+
+    .mess p {
+        font-size: 14px;
+        width: 248px
+    }
+
+    .box {
+        margin: 0px 7px;
+        width: 250px;
+    }
+
+    .box p {
+        font-size: 15px;
+        padding: 260px 18px;
+    }
+
+    #box1::before {
+        width: 248px;
+    }
+
+    #box2::before {
+        width: 248px;
+    }
+
+    .main-box h2 {
+        font-size: 24px;
+    }
+
+    #box3::before {
+        width: 248px;
+    }
+
+    .image-text {
+        height: 900px;
+    }
+
+    .text p {
+        font-size: 15px;
+
+    }
+
+    .text {
+        left: 20px;
+    }
+
+    .text-1 {
+        margin: -10px 0px;
+    }
+
+    .text-1 h2 {
+        font-size: 20px;
+    }
+
+    .entry {
+        right: -20px
+    }
+
+    form input {
+        width: 280px;
+    }
+
+    textarea {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width:799px) and (min-width:600px) {
+    #home .home-content {
+        left: 64px;
+    }
+
+    .primary-text {
+        font-size: 40px;
+    }
+
+    .secondary-text {
+        font-size: 28px;
+    }
+
+    .search2 input {
+        width: 460px;
+    }
+
+    .navbar .search {
+        left: -26px;
+    }
+
+    .navbar2 ul li a {
+        margin: 0px 19px;
+        font-size: 21px;
+    }
+
+    .navbar2 {
+        right: -10px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .logo .navtext {
+        font-size: 16px;
+    }
+
+    .search input {
+        width: 170px;
+        height: 34px;
+    }
+
+    .navbar .logo {
+        left: -30px;
+    }
+
+    .images {
+        left: -101px;
+        top: 605px;
+        text-align: center;
+
+    }
+
+    .con-form {
+        left: -2px;
+        top: 54px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .fb-gm-wh {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mess p {
+        font-size: 14px;
+        width: 248px
+    }
+
+    #blog {
+        margin-bottom: -129px;
+    }
+
+    .blog-content {
+        margin: 77px 0px;
+    }
+
+    .box {
+        margin: 36px 0px;
+        width: 587px;
+        height: 309px
+    }
+
+    .box p {
+        font-size: 17px;
+        padding: 258px 18px;
+
+    }
+
+    #box1::before {
+        width: 585px;
+        height: 240px;
+    }
+
+    #box2::before {
+        width: 585px;
+        height: 240px;
+    }
+
+
+
+    #box3::before {
+        width: 585px;
+        height: 240px;
+    }
+
+    .main-box h2 {
+        font-size: 24px;
+        top: 20px;
+    }
+
+    .blog-content-row {
+        flex-direction: column;
+    }
+
+    .blog-content-row2 {
+        flex-direction: column;
+        top: 12px;
+    }
+
+    .image-text {
+        height: 950px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        left: 0;
+
+    }
+
+
+    .text p {
+        font-size: 15px;
+        width: 276px;
+
+    }
+
+    .text {
+        left: 138px;
+        top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1 {
+        margin: 13px 0px;
+    }
+
+    .text-1 h2 {
+        font-size: 20px;
+    }
+
+    .entry {
+        right: -20px;
+        font-size: 16px;
+    }
+
+    form input {
+        width: 300px;
+        height: 40px
+    }
+
+    textarea {
+        width: 300px;
+        height: 170px;
+    }
+}
+
+@media screen and (max-width:599px) and (min-width:450px) {
+    #home .home-content {
+        left: 64px;
+    }
+
+    .primary-text {
+        font-size: 34px;
+    }
+
+    .secondary-text {
+        font-size: 20px;
+    }
+
+    .search2 input {
+        width: 315px;
+    }
+
+    .navbar .search {
+        left: -23px;
+    }
+
+    .navbar2 ul li a {
+        margin: 0px 19px;
+        font-size: 21px;
+    }
+
+    .navbar2 {
+        right: -10px;
+    }
+
+    .logo img {
+        width: 50px;
+    }
+
+    .logo .navtext {
+        font-size: 13px;
+        position: relative;
+        left: 6px;
+
+    }
+
+    .search input {
+        width: 153px;
+        height: 30px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .navbar .logo {
+        left: 24px;
+        top: -24px;
+    }
+
+    .logo hr {
+        display: none;
+    }
+
+    .images {
+        left: 0px;
+        top: 605px;
+        text-align: center;
+
+    }
+
+    .con-form {
+        left: -70px;
+        top: 54px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .fb-gm-wh {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mess p {
+        font-size: 14px;
+        width: 248px
+    }
+
+    #blog {
+        margin-bottom: -129px;
+    }
+
+    .blog-content {
+        margin: 77px 0px;
+    }
+
+    .box {
+        margin: 36px 0px;
+        width: 402px;
+        height: 309px
+    }
+
+    .box p {
+        font-size: 16px;
+        padding: 254px 18px;
+
+    }
+
+    #box1::before {
+        width: 400px;
+        height: 240px;
+    }
+
+    #box2::before {
+        width: 400px;
+        height: 240px;
+    }
+
+
+
+    #box3::before {
+        width: 400px;
+        height: 240px;
+    }
+
+    .main-box h2 {
+        font-size: 24px;
+        top: 20px;
+    }
+
+    .blog-content-row {
+        flex-direction: column;
+    }
+
+    .blog-content-row2 {
+        flex-direction: column;
+        top: 12px;
+    }
+
+    .image-text {
+        height: 950px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        left: 0;
+
+    }
+
+
+    .text p {
+        font-size: 15px;
+        width: 276px;
+
+    }
+
+    .mess {
+        left: -98px;
+    }
+
+    .mess h2 {
+        font-size: 22px;
+    }
+
+    .text {
+        left: 79px;
+        top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1 {
+        margin: 13px 0px;
+    }
+
+    .text-1 h2 {
+        font-size: 20px;
+    }
+
+    .entry {
+        right: 45px;
+        top: -41px;
+        font-size: 13px;
+    }
+
+    .entry a {
+        margin: 0px 5px;
+    }
+
+    form input {
+        width: 300px;
+        height: 40px
+    }
+
+    textarea {
+        width: 300px;
+        height: 170px;
+    }
+
+    footer .foot-con {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:449px) and (min-width:315px) {
+    header{
+        height: 283px;
+    }
+    #home .home-content {
+        left: 28px;
+    }
+
+    .primary-text {
+        font-size: 23px;
+    }
+
+    .secondary-text {
+        font-size: 14px;
+    }
+    .search2 {
+        margin: 7px -8px;
+    }
+
+    .search2 input {
+        width: 250px;
+    font-size: 14px;
+    }
+    .primary-h1{
+        width: 310px;
+        height: 80px;
+        animation: bgch1 1.2s ease-in 0s infinite alternate forwards;
+    }
+    @keyframes bgch1 {
+        from{
+            width: 180px;
+            
+        }
+        to{
+            width: 250px ;
+            display: block;
+        }
+    }
+
+    .navbar .search {
+        left: 54px;
+    top: 34px;
+    }
+
+    .navbar2 ul li a {
+        margin: 0px 17px;
+        font-size: 14px;
+
+    }
+
+    .navbar2 {
+        right: -2px;
+        top: 57px;
+    }
+
+    .logo img {
+        width: 34px;
+        position: relative;
+        left: 9px;
+        top: -62px;
+    }
+
+    .logo .navtext {
+        font-size: 20px;
+        position: relative;
+        left: 146px;
+        margin: 0px -147px;
+        top: 23px;
+
+    }
+
+    .search input {
+        width: 215px;
+        height: 26px;
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    .navbar .logo {
+        left: 24px;
+        top: -24px;
+    }
+
+    .logo hr {
+        display: none;
+    }
+
+    .images {
+        left: 0px;
+        top: 605px;
+        text-align: center;
+
+    }
+
+    .con-form {
+        left: -118px;
+        top: 54px;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        height: 900px;
+    }
+
+    .fb-gm-wh {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mess p {
+        font-size: 12px;
+        width: 207px;
+        margin: 9px -15px;
+    }
+
+    #blog {
+        margin-bottom: -129px;
+    }
+
+    .blog-content {
+        margin: 77px 0px;
+    }
+
+    .box {
+        margin: 36px 0px;
+        width: 290px;
+        height: 309px
+    }
+
+    .box p {
+        font-size: 15px;
+        padding: 243px 18px;
+
+    }
+
+    #box1::before {
+        width: 288px;
+        height: 240px;
+    }
+
+    #box2::before {
+        width: 288px;
+        height: 240px;
+    }
+
+
+
+    #box3::before {
+        width: 288px;
+        height: 240px;
+    }
+
+    .main-box h2 {
+        font-size: 24px;
+        top: 20px;
+    }
+
+    .blog-content-row {
+        flex-direction: column;
+    }
+
+    .blog-content-row2 {
+        flex-direction: column;
+        top: 12px;
+    }
+
+    .image-text {
+        height: 950px;
+        padding: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .image img {
+        width: 100%;
+        left: 0;
+
+    }
+
+
+    .text p {
+        font-size: 12px;
+        width: 226px;
+
+    }
+
+    .mess {
+        left: -91px;
+    }
+
+    .mess h2 {
+        font-size: 15px;
+        margin: 2px -39px;
+        position: relative;
+        left: 9px;
+    }
+    .images .img-text{
+        margin: 20px -54px;
+    }
+
+    .text {
+        left: 36px;
+        top: 45px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-1 {
+        margin: 13px 0px;
+    }
+
+    .text-1 h2 {
+        font-size: 15px;
+    }
+
+    .entry {
+        right: 40px;
+        top: -93px;
+        font-size: 13px;
+    }
+
+    .entry a {
+        margin: 0px 5px;
+    }
+
+    form input {
+        width: 240px;
+        height: 33px;
+        font-size: 15px;
+    }
+
+    textarea {
+        width: 240px;
+        height: 33px;
+        font-size: 15px;
+    }
+    .image-text h3{
+        font-size: 18px;
+    }
+    .sml-img img {
+        width: 32px;
+    }
+
+    footer .foot-con {
+        font-size: 12px;
+    }
+}

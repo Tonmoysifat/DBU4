@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 158px;
+    background-color: #009688;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar a {
+    text-decoration: none;
+}
+.navbar .logo {
+    display: flex;
+    position: relative;
+    left: -261px;
+    top: -14px;
+}
+.logo img {
+    width: 68px;
+}
+.logo .navtext {
+    font-size: 22px;
+    font-weight: bold;
+    color: #bfff00;
+}
+hr {
+    margin: 5px;
+}
+.navbar .search {
+    position: relative;
+    left: -250px;
+}
+.search input {
+    width: 279px;
+    height: 49px;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+.entry {
+    display: flex;
+    position: relative;
+    right: -154px;
+    font-weight: bold;
+    top: -39px;
+    font-size: 21px;
+}
+.entry a {
+    text-decoration: none;
+    margin: 0px 9px;
+    color: darkslategrey;
+}
+.entry a:hover {
+    color: rgba(0, 0, 0, 0.651);
+}
+.navbar2 {
+    position: relative;
+    right: -175px;
+    top: 6px;
+}
+.navbar2 ul {
+    display: flex;
+}
+.navbar2 ul li {
+    list-style: none;
+}
+.navbar2 ul li a {
+    text-decoration: none;
+    margin: 0px 28px;
+    font-size: 22px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+.navbar2 ul li a:hover {
+    text-decoration: overline;
+}
+
+#home {
+    display: flex;
+    height: 100vh;
+}
+#home .home-content {
+    position: relative;
+    top: 135px;
+    left: 298px;
+    z-index: 1;
+}
+#home::before {
+    content: "";
+    background: url("https://source.unsplash.com/random") no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.primary-text {
+    margin: -7px -16px;
+    font-size: 45px;
+    color: white;
+}
+.primary-text h1 {
+    font-weight: bold;
+}
+.secondary-text {
+    margin: 5px -6px;
+    font-size: 35px;
+    color: white;
+}
+.search2{
+    margin: 16px -5px;
+}
+.search2 input {
+    width: 564px;
+    height: 55px;
+    border-radius: 12px;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+#blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 170px 0px;
+    flex-direction: column;
+}
+.primary-h1{
+    width: 410px;
+    height: 80px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color:darkorchid;
+    border-radius: 5px;
+    animation: bgch1 2s ease-in 0s infinite alternate forwards;
+    font-weight: bold;
+    color: white;
+}
+@keyframes bgch1 {
+    from{
+        width: 180px;
+        
+    }
+    to{
+        width: 410px ;
+        display: block;
+    }
+}
+.blog-content{
+    display: flex;
+    margin: 137px 0px;
+    flex-direction: column;
+}
+.blog-content-row{
+    display: flex;
+}
+.blog-content-row2{
+    display: flex;
+    position: relative;
+    top: 180px;
+}
+.box{
+    border: 1px solid grey;
+    margin: 0px 10px;
+    height: 260px;
+    width: 385px;
+    padding: 75px -1px;
+    transition: all .2s;
+}
+.box:hover{
+    transform: scale(1.03);
+}
+.box p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 207px 18px;
+    color:black;
+}
+.main-box h2{
+    text-align: center;
+    position: relative;
+    top: -45px;
+    font-size: 33px;
+    color:chocolate;
+}
+.main-box a{
+    text-decoration: none;
+}
+.box hr{
+    height: 6px;
+    background-color: grey;
+}
+#box1::before{
+    content: "";
+    background: url("images/sport.jpg") no-repeat center center/cover;
+    height: 195px;
+    width: 383px;
+    position:absolute;
+    z-index: -1;
+}
+#box2::before{
+    content: "";
+    background: url("images/CS.png") no-repeat center center/cover;
+    height: 195px;
+    width: 383px;
+    position:absolute;
+    z-index: -1;
+}
+#box3::before{
+    content: "";
+    background: url("images/Showbiz.jpg") no-repeat center center/cover;
+    height: 195px;
+    width: 383px;
+    position:absolute;
+    z-index: -1;
+}
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+.about-content{
+    margin: 70px 0px;
+    position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.image h1{
+    position: relative;
+    top: -227px;
+    left: 30px;
+    color: white;
+    font-size: 50px;
+}
+.about-content .about-text{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 110px;
+    text-align: center;
+}
+.image-text{
+    margin: 75px 0px;
+    background-color: rgba(128, 128, 128, 0.336);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 117px;
+}
+.image img{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: -30px;
+}
+.text{
+    position: relative;
+    left: 116px;  
+}
+.text p{
+    width: 80%;
+    margin: 12px 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-1{
+    margin: 30px 0px;
+}
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-content{
+    margin: 100px 0px;
+    display: flex;
+    width: 96%;
+    height: 520px;
+    padding: 50px 144px;
+    background-color:#3367d5;
+    border-radius: 120px;    
+}
+.mess{
+    position: relative;
+    left: -18px;
+    top: 33px;
+}
+.mess p{
+    font-weight: bold;
+    width: 90%;
+    margin: 9px 16px;
+    font-size: 18px;
+}
+.con-form{
+    position: relative;
+    top: -15px;
+    left: -57px;
+}
+.con-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form input{
+    margin: 12px 0px;
+    width: 406px;
+    height: 46px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 18px;
+}
+form textarea{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    height: 200px;
+    margin: 5px 0px;
+}
+form label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn{
+    width: 78px;
+    height: 32px;
+    margin: 11px 1px;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 17px;
+    background: aqua;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.btn:active{
+    border-color: red;
+}
+.images{ 
+    position: relative;
+    top: 248px;
+    left: -435px;
+    height: 0;
+}
+.images .img-text{
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.fb-gm-wh{
+    display: flex;
+}
+.fb-gm-wh .sml-img{
+    margin: 0px 12px;
+}
+.sml-img img{
+    width: 40px;
+}
+footer{
+    background-color: rgba(128, 128, 128, 0.13);
+    height: 82px;
+}
+footer hr{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+footer .foot-con{
+    text-align: center;
+    padding: 16px;  
+}
