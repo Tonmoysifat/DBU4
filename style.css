@@ -215,7 +215,7 @@ hr {
 }
 #box1::before{
     content: "";
-    background: url("../images/sport.jpg") no-repeat center center/cover;
+    background: url("images/sport.jpg") no-repeat center center/cover;
     height: 195px;
     width: 383px;
     position:absolute;
@@ -223,7 +223,7 @@ hr {
 }
 #box2::before{
     content: "";
-    background: url("../images/CS.png") no-repeat center center/cover;
+    background: url("images/CS.png") no-repeat center center/cover;
     height: 195px;
     width: 383px;
     position:absolute;
@@ -231,7 +231,7 @@ hr {
 }
 #box3::before{
     content: "";
-    background: url("../images/Showbiz.jpg") no-repeat center center/cover;
+    background: url("images/Showbiz.jpg") no-repeat center center/cover;
     height: 195px;
     width: 383px;
     position:absolute;
