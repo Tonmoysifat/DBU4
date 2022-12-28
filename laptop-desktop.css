@@ -144,29 +144,29 @@
 
     .box {
         margin: 0px 7px;
-        width: 250px;
+        width: 245px;
     }
 
     .box p {
         font-size: 15px;
-        padding: 260px 18px;
     }
 
     #box1::before {
-        width: 248px;
+        width: 243px;
     }
 
     #box2::before {
-        width: 248px;
+        width: 243px;
+    }
+    #box3::before {
+        width: 243px;
     }
 
     .main-box h2 {
         font-size: 24px;
     }
 
-    #box3::before {
-        width: 248px;
-    }
+  
 
     .image-text {
         height: 900px;
@@ -286,30 +286,30 @@
 
     .box {
         margin: 36px 0px;
-        width: 587px;
+        width: 560px;
         height: 309px
     }
 
     .box p {
         font-size: 17px;
-        padding: 258px 18px;
+        top: 263px;
 
     }
 
     #box1::before {
-        width: 585px;
+        width: 558px;
         height: 240px;
     }
 
     #box2::before {
-        width: 585px;
+        width: 558px;
         height: 240px;
     }
 
 
 
     #box3::before {
-        width: 585px;
+        width: 558px;
         height: 240px;
     }
 
@@ -482,8 +482,8 @@
     }
 
     .box p {
-        font-size: 16px;
-        padding: 254px 18px;
+        font-size: 17px;
+        top: 253px;
 
     }
 
@@ -592,9 +592,10 @@
 }
 
 @media screen and (max-width:449px) and (min-width:315px) {
-    header{
+    header {
         height: 283px;
     }
+
     #home .home-content {
         left: 28px;
     }
@@ -606,33 +607,37 @@
     .secondary-text {
         font-size: 14px;
     }
+
     .search2 {
         margin: 7px -8px;
     }
 
     .search2 input {
         width: 250px;
-    font-size: 14px;
+        font-size: 14px;
     }
-    .primary-h1{
+
+    .primary-h1 {
         width: 310px;
         height: 80px;
         animation: bgch1 1.2s ease-in 0s infinite alternate forwards;
     }
+
     @keyframes bgch1 {
-        from{
+        from {
             width: 180px;
-            
+
         }
-        to{
-            width: 250px ;
+
+        to {
+            width: 250px;
             display: block;
         }
     }
 
     .navbar .search {
         left: 54px;
-    top: 34px;
+        top: 34px;
     }
 
     .navbar2 ul li a {
@@ -721,9 +726,8 @@
     }
 
     .box p {
-        font-size: 15px;
-        padding: 243px 18px;
-
+        font-size: 17px;
+        top: 249px;
     }
 
     #box1::before {
@@ -792,7 +796,8 @@
         position: relative;
         left: 9px;
     }
-    .images .img-text{
+
+    .images .img-text {
         margin: 20px -54px;
     }
 
@@ -832,9 +837,11 @@
         height: 33px;
         font-size: 15px;
     }
-    .image-text h3{
+
+    .image-text h3 {
         font-size: 18px;
     }
+
     .sml-img img {
         width: 32px;
     }
